@@ -1,0 +1,72 @@
+
+.menu {
+    list-style: none;
+    height: 8%;
+    background-color: #092327;
+    width: 100%;
+    max-width: auto;
+    margin-bottom: 2%;
+    z-index: 50;
+    top: 0px;
+    text-align: center;
+}
+
+.sub_lista{
+
+background-color: #f63643;
+position: absolute;
+flex-direction: column;
+display: none;
+
+}
+
+
+
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+    width: 193px}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 22px;
+    display: block;
+
+}
+
+.menu li a {
+    width: 200px;
+}
+
+.menu li a:hover {
+    background-color: #ef854e;
+    height: 65px;
+
+    
+}
+.menu li:hover .sub_lista{
+   display: flex;
+    
+    
+}
+.lista {
+    text-align: center;
+    background-color: #f63643 ;
+}
+
+/* Fondo falso */
+.principal{
+    position: fixed;
+}
+
+@media screen and (max-width:983px){
+    .robot{
+        display: none;
+        
+            }
+}
+
+
+

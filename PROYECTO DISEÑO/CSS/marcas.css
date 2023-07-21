@@ -1,0 +1,63 @@
+.titulo h1{
+
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.articulo{
+    margin: 18px 0px;
+display: block;
+text-align: center;
+
+}
+.texto{
+    margin: 3px 317px 13px 250px;
+        display: flex;
+
+}
+
+.texto div img{
+    padding:1px 22px;
+}
+.img p{
+   display: none;
+    margin: 5px 53px;
+}
+
+    .button.img {
+        margin: 0px -4px;
+        width: 122%;
+    }
+    .button.cancel{
+        display: block;
+        margin: 7px auto;
+        width: 63px;
+    padding: 6px 0px;
+    }
+.text_trayec{
+    margin: 7px 428px;
+
+}
+.imagen.forland{
+width: 304px;
+    height: 150px;
+    
+}
+.imagen.foton{
+width: 304px;
+    height: 150px;
+    
+}
+.imagen.forland{
+width: 304px;
+    height: 150px;
+    
+}
+.imagen.yuejin{
+
+width: 304px;
+    height: 150px;
+}
+img{
+
+    margin: 0px 26px;
+}

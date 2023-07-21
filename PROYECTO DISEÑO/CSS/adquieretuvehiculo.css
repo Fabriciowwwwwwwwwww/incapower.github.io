@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.contenido{
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+}
+.mostrador{
+    width: 100%;
+    transition: .5s ease;
+}
+.mostrador {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.mostrador .item{
+    max-width: 210px;
+    padding: 30px;
+    height: 250px;
+    /*border: 2px solid red;*/
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.mostrador .item img{
+    width: 100%;
+    margin: 30px 0;
+}
+.mostrador .item .descripcion{
+    color: #707070;
+    font-weight: bold;
+}
+.mostrador .item .precio{
+    color: #f85151;
+    font-weight: bold;
+    font-size: 20px;
+}
+.seleccion{
+    transition: .5s ease;
+    opacity: 0;
+    width: 0%;
+    border: 1px solid #ccc;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.cerrar{
+    position: absolute;
+    right: 0;
+    top: 47px;
+    right: 17px;
+    cursor: pointer;
+    width: 3%;
+}
+
+.info{
+    padding: 20px;
+}
+.info img{
+    display: block;
+    margin: 30px auto;
+    width: 60%;
+}
+.info h2{
+    color: #707070;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 10px;
+}
+.info .precio{
+    font-size: 30px;
+    font-weight: bold;
+    color: #f85151;
+    margin-bottom: 10px;
+    display: block;
+}
+.info {
+    display: block;
+    position: absolute;
+    top: 69px;
+
+}
+.info  label{
+    display: block;
+    margin-bottom: 10px;
+}
+.info .select{
+    width: 100px;
+    font-size: 18px;
+    padding: 6px;
+    margin-right: 30px;
+}
+.b_m{
+    margin: 34px 0px 0px 0px
+}
+.info button{
+    height: 40px;
+    border: none;
+    padding: 0 10px;
+    color: #fff;
+    background-color: #f85151;
+}
+.f{
+    display: block;
+    position: absolute;
+    top: 108px;
+    left: 17px;
+}
+.f button{
+    border-radius: 24px;
+    padding: 11px 12px;
+    display: block;
+    background-color: #F85153;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+}
+.f input{
+    border: 2px solid;
+    margin: 19px 0px;
+    width: 143px;
+    border-radius: 12px;
+    padding: 5px 0px;
+
+}
+.f .limpiar{
+
+    margin: 228px 0px;
+
+}
